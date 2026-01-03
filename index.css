@@ -1796,7 +1796,7 @@ nav ul li a:hover {
   }
 
   #skills {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .skills-pills {
@@ -1851,9 +1851,9 @@ nav ul li a:hover {
   }
 
   .timeline-dot {
-    left: 6px;
-    width: 30px;
-    height: 30px;
+    left: 2px;
+    width: 40px;
+    height: 40px;
     top: 30px;
   }
 
