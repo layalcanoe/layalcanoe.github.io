@@ -1335,14 +1335,31 @@ nav ul li a:hover {
 
 .cert-card a {
   color: #088395;
-  margin-left: 4%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px 14px;
+  background: rgba(8, 131, 149, 0.1);
+  border-radius: 999px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 560;
+  font-size: 15px;
   transition: color 0.3s ease;
 }
 
 .cert-card a:hover {
   color: #00c1cbe7;
+  background: rgba(8, 131, 149, 0.18);
+}
+
+.cert-links {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  list-style-position: outside;
+}
+
+.cert-links li {
+  margin: 8px 0;
+  line-height: 1.4;
 }
 
 /* Footer */
@@ -1783,6 +1800,9 @@ nav ul li a:hover {
 
   .quick-facts {
     padding: 20px 15px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .facts-grid {
@@ -1792,6 +1812,15 @@ nav ul li a:hover {
 
   #projects {
     padding: 60px 20px;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .links::before {
+    content: "View ->";
+    font-size: 0.75rem;
   }
 
   .cards-container {
