@@ -510,7 +510,7 @@ nav ul li a:hover {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background: #fff;
 }
 
@@ -543,8 +543,20 @@ nav ul li a:hover {
   display: flex;
   gap: 15px;
   justify-content: center;
+  align-items: center;
+  margin-top: auto;
   padding-top: 15px;
   border-top: 2px solid #f0f4f8;
+}
+
+.links::before {
+  content: "View Project ->";
+  align-self: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #088395;
+  letter-spacing: 0.02em;
 }
 
 .links a {
